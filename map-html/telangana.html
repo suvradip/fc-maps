@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/telangana',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                   
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"in.ap.ad","value":4143},{"id":"in.ap.hy","value":1338},{"id":"in.ap.ka","value":4544},{"id":"in.ap.kh","value":4667},{"id":"in.ap.ma","value":1701},{"id":"in.ap.me","value":4752},{"id":"in.ap.na","value":4315},{"id":"in.ap.ni","value":4367},{"id":"in.ap.ra","value":1719},{"id":"in.ap.wa","value":4699}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

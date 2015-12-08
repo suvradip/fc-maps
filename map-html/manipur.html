@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/manipur',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    }
+
+                ]
+            },
+            "data": [{"id":"in.mn.bi","value":1803},{"id":"in.mn.cd","value":231},{"id":"in.mn.cc","value":179},{"id":"in.mn.ei","value":1727},{"id":"in.mn.se","value":2912},{"id":"in.mn.ta","value":540},{"id":"in.mn.th","value":946},{"id":"in.mn.uk","value":1269},{"id":"in.mn.wi","value":1168}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

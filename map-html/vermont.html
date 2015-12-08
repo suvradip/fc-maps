@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/vermont',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                    
+                   
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"001","value":1568},{"id":"003","value":3766},{"id":"005","value":1100},{"id":"007","value":3542},{"id":"009","value":2211},{"id":"011","value":2397},{"id":"013","value":2212},{"id":"015","value":2675},{"id":"017","value":1643},{"id":"019","value":3563},{"id":"021","value":675},{"id":"023","value":3940},{"id":"025","value":4110},{"id":"027","value":1538}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

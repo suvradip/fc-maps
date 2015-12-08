@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/burkinafaso',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1",
+                "baseFontSize": "8"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"bf.ba","value":1768},{"id":"bf.bm","value":4963},{"id":"bf.bw","value":3321},{"id":"bf.bz","value":3536},{"id":"bf.bb","value":1024},{"id":"bf.bl","value":1706},{"id":"bf.bk","value":4999},{"id":"bf.gz","value":1769},{"id":"bf.gg","value":4490},{"id":"bf.gm","value":4461},{"id":"bf.ho","value":1033},{"id":"bf.io","value":3238},{"id":"bf.ka","value":618},{"id":"bf.kj","value":155},{"id":"bf.km","value":3222},{"id":"bf.kp","value":4725},{"id":"bf.ks","value":4740},{"id":"bf.kl","value":3496},{"id":"bf.kr","value":3436},{"id":"bf.kw","value":3498},{"id":"bf.kn","value":1534},{"id":"bf.lo","value":2166},{"id":"bf.le","value":600},{"id":"bf.mo","value":1330},{"id":"bf.nr","value":823},{"id":"bf.nm","value":369},{"id":"bf.ny","value":1946},{"id":"bf.nb","value":1560},{"id":"bf.ob","value":587},{"id":"bf.od","value":4041},{"id":"bf.pa","value":3529},{"id":"bf.po","value":2480},{"id":"bf.sg","value":1737},{"id":"bf.st","value":1490},{"id":"bf.ss","value":4320},{"id":"bf.sm","value":2114},{"id":"bf.sr","value":4151},{"id":"bf.se","value":3214},{"id":"bf.ta","value":595},{"id":"bf.tu","value":1347},{"id":"bf.yg","value":1426},{"id":"bf.yt","value":3789},{"id":"bf.zr","value":3977},{"id":"bf.zm","value":3135},{"id":"bf.zw","value":4357}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/kujawskopomorskie',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1",
+                "BasefontSize": "8"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"pl.kp.al","value":1682},{"id":"pl.kp.br","value":4873},{"id":"pl.kp.by","value":3061},{"id":"pl.kp.bm","value":236},{"id":"pl.kp.ch","value":308},{"id":"pl.kp.go","value":2037},{"id":"pl.kp.gm","value":609},{"id":"pl.kp.gr","value":4763},{"id":"pl.kp.in","value":2821},{"id":"pl.kp.li","value":263},{"id":"pl.kp.mo","value":4537},{"id":"pl.kp.na","value":542},{"id":"pl.kp.ra","value":3493},{"id":"pl.kp.ry","value":2194},{"id":"pl.kp.se","value":1213},{"id":"pl.kp.sw","value":454},{"id":"pl.kp.tm","value":2330},{"id":"pl.kp.to","value":1309},{"id":"pl.kp.tu","value":2442},{"id":"pl.kp.wa","value":1353},{"id":"pl.kp.wm","value":845},{"id":"pl.kp.wl","value":535},{"id":"pl.kp.zn","value":3858}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

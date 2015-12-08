@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/latvia',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1",
+                "baseFontSize" : "8"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"01","value":4844},{"id":"02","value":1960},{"id":"03","value":596},{"id":"04","value":2646},{"id":"05","value":1092},{"id":"06","value":2954},{"id":"07","value":2222},{"id":"08","value":354},{"id":"09","value":1267},{"id":"11","value":347},{"id":"12","value":271},{"id":"10","value":2682},{"id":"13","value":224},{"id":"14","value":3840},{"id":"15","value":1588},{"id":"16","value":802},{"id":"17","value":437},{"id":"18","value":1918},{"id":"19","value":4346},{"id":"20","value":4824},{"id":"21","value":2259},{"id":"22","value":4094},{"id":"23","value":4228},{"id":"24","value":490},{"id":"25","value":1291},{"id":"26","value":200},{"id":"27","value":2615},{"id":"28","value":1709},{"id":"29","value":2764},{"id":"30","value":3949},{"id":"31","value":322},{"id":"32","value":2114},{"id":"33","value":4075}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

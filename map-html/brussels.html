@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/brussels',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"be.bu.an","value":1533},{"id":"be.bu.au","value":3378},{"id":"be.bu.bs","value":1183},{"id":"be.bu.et","value":4298},{"id":"be.bu.ev","value":3617},{"id":"be.bu.fo","value":2688},{"id":"be.bu.ga","value":2386},{"id":"be.bu.ix","value":3542},{"id":"be.bu.je","value":453},{"id":"be.bu.ko","value":3902},{"id":"be.bu.ms","value":750},{"id":"be.bu.sg","value":229},{"id":"be.bu.sj","value":3914},{"id":"be.bu.sc","value":572},{"id":"be.bu.uc","value":1137},{"id":"be.bu.br","value":2930},{"id":"be.bu.wb","value":3181},{"id":"be.bu.ws","value":1432},{"id":"be.bu.wp","value":1359}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

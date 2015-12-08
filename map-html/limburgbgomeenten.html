@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/limburgbgomeenten',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1",
+                "baseFontSize" : "8"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"be.li.al","value":643},{"id":"be.li.as","value":2240},{"id":"be.li.be","value":1765},{"id":"be.li.bi","value":1172},{"id":"be.li.bo","value":557},{"id":"be.li.bg","value":2422},{"id":"be.li.br","value":2637},{"id":"be.li.di","value":3439},{"id":"be.li.ds","value":1658},{"id":"be.li.ge","value":3362},{"id":"be.li.gr","value":4333},{"id":"be.li.hl","value":2567},{"id":"be.li.hm","value":2102},{"id":"be.li.ha","value":406},{"id":"be.li.hs","value":4417},{"id":"be.li.hc","value":209},{"id":"be.li.he","value":3675},{"id":"be.li.hd","value":845},{"id":"be.li.ht","value":1355},{"id":"be.li.hz","value":742},{"id":"be.li.ho","value":988},{"id":"be.li.hh","value":4861},{"id":"be.li.ki","value":1752},{"id":"be.li.ko","value":1090},{"id":"be.li.la","value":268},{"id":"be.li.le","value":4158},{"id":"be.li.lo","value":801},{"id":"be.li.lu","value":1185},{"id":"be.li.ma","value":4188},{"id":"be.li.ms","value":1152},{"id":"be.li.mg","value":372},{"id":"be.li.ne","value":742},{"id":"be.li.ni","value":3837},{"id":"be.li.op","value":3829},{"id":"be.li.ov","value":2793},{"id":"be.li.pe","value":2649},{"id":"be.li.ri","value":3398},{"id":"be.li.st","value":3988},{"id":"be.li.te","value":3351},{"id":"be.li.to","value":2291},{"id":"be.li.vo","value":4435},{"id":"be.li.we","value":3354},{"id":"be.li.zo","value":3876},{"id":"be.li.zu","value":3862}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

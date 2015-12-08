@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/queretarodearteaga',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"mx.qe.am","value":2299},{"id":"mx.qe.ar","value":2847},{"id":"mx.qe.cm","value":1419},{"id":"mx.qe.cl","value":2961},{"id":"mx.qe.cr","value":4192},{"id":"mx.qe.ma","value":3995},{"id":"mx.qe.ez","value":1002},{"id":"mx.qe.hu","value":1397},{"id":"mx.qe.ja","value":3785},{"id":"mx.qe.la","value":1239},{"id":"mx.qe.pe","value":4808},{"id":"mx.qe.pm","value":3444},{"id":"mx.qe.pa","value":1658},{"id":"mx.qe.qu","value":4720},{"id":"mx.qe.sj","value":2128},{"id":"mx.qe.sr","value":4377},{"id":"mx.qe.te","value":2442},{"id":"mx.qe.to","value":1202}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

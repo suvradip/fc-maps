@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/oklahomaareacode',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                    {
+                        "minvalue": "200",
+                        "maxvalue": "400",
+                        "code": "#ccff99",
+                        "displayValue" : "Below 400M"
+                    },
+                    {
+                        "minvalue": "400",
+                        "maxvalue": "800",
+                        "code": "#D0DFA3",
+                        "displayValue" : "400-800M"
+                    },
+                    {
+                        "minvalue": "800",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "Above 1B"
+                    }
+                    
+
+                ]
+            },
+            "data": [{"id":"405","value":295},{"id":"580","value":655},{"id":"918","value":803}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

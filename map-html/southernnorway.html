@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/southernnorway',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1"
+            },
+            "colorrange": {
+                "color": [
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "200",
+                        "code": "#ccff99",
+                        "displayValue" : "Below 200M"
+                    },
+                    {
+                        "minvalue": "200",
+                        "maxvalue": "300",
+                        "code": "#D0DFA3",
+                        "displayValue" : "200-300M"
+                    }
+
+                ]
+            },
+            "data": [{"id":"1","value":280},{"id":"2","value":"125"}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

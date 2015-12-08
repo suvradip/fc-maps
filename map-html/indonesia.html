@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>A Data Driven Map</title>
+    <script type="text/javascript" src="js/fusioncharts.js"></script>
+    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
+
+
+<body>
+
+<script>
+FusionCharts.ready(function () {
+    var populationMap = new FusionCharts({
+        type: 'maps/indonesia',
+        renderAt: 'chart-container',
+        width: '700',
+        height: '500',
+        dataFormat: 'json',
+        dataSource: {
+                "chart": {
+                "caption": "Global Population",
+                "theme": "fint",
+                "formatNumberScale":"0",
+                "numberSuffix":"M",
+                "showLabels":"1",
+                "includeValueInLabels" : "1",
+                "baseFontSize" : "8"
+            },
+            "colorrange": {
+                "color": [
+                    
+                    {
+                        "minvalue": "100",
+                        "maxvalue": "500",
+                        "code": "#D0DFA3",
+                        "displayValue" : "100-500M"
+                    },
+                    {
+                        "minvalue": "500",
+                        "maxvalue": "1000",
+                        "code": "#B0BF92",
+                        "displayValue" : "500-1000M"
+                    },
+                    {
+                        "minvalue": "1000",
+                        "maxvalue": "2000",
+                        "code": "#86b300",
+                        "displayValue" : "1000-2000M"
+                    },
+                    {
+                        "minvalue": "2000",
+                        "maxvalue": "3000",
+                        "code": "#00cc00",
+                        "displayValue" : "2000-3000M"
+                    },
+                    {
+                        "minvalue": "3000",
+                        "maxvalue": "5000",
+                        "code": "#008000",
+                        "displayValue" : "Above 3B"
+                    }
+
+                ]
+            },
+            "data": [{"id":"01","value":4569},{"id":"02","value":465},{"id":"35","value":3146},{"id":"33","value":4132},{"id":"03","value":3731},{"id":"07","value":974},{"id":"13","value":2247},{"id":"21","value":2744},{"id":"08","value":1264},{"id":"14","value":3201},{"id":"18","value":970},{"id":"34","value":4394},{"id":"04","value":4729},{"id":"05","value":424},{"id":"15","value":1571},{"id":"28","value":4536},{"id":"42","value":4070},{"id":"29","value":1824},{"id":"31","value":2386},{"id":"26","value":566},{"id":"36","value":527},{"id":"37","value":2461},{"id":"40","value":4719},{"id":"22","value":1306},{"id":"12","value":1467},{"id":"38","value":4873},{"id":"32","value":2601},{"id":"30","value":4054},{"id":"11","value":232},{"id":"17","value":3239},{"id":"39","value":1954},{"id":"41","value":1784},{"id":"24","value":4930},{"id":"10","value":3998}]
+        }
+    }).render();
+});
+</script>
+<div id="chart-container">A world map will load here!</div>
+
+</body>
+</html>

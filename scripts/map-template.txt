@@ -1,10 +1,7 @@
 <html>
 <head>
     <title>A Data Driven Map</title>
-    <script type="text/javascript" src="js/fusioncharts.js"></script>
-    <script type="text/javascript" src="js/themes/fusioncharts.theme.fint.js"></script>
-
-
+    <script type="text/javascript" src="../js/fusioncharts.js"></script>
 <body>
 
 <script>

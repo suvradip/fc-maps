@@ -98724,5 +98724,1090 @@
         "id": "mg.fi.vf",
         "shortL": "VF",
         "value": 3096
+    },
+    {
+        "id": "AK",
+        "shortL": "Akkol",
+        "value": 4739
+    },
+    {
+        "id": "AR",
+        "shortL": "Arshaly",
+        "value": 1582
+    },
+    {
+        "id": "AS",
+        "shortL": "Astrakhan",
+        "value": 2225
+    },
+    {
+        "id": "AT",
+        "shortL": "Atbasar",
+        "value": 3819
+    },
+    {
+        "id": "BU",
+        "shortL": "Bulandy",
+        "value": 477
+    },
+    {
+        "id": "BR",
+        "shortL": "Burabay",
+        "value": 2385
+    },
+    {
+        "id": "EG",
+        "shortL": "Egindikol",
+        "value": 2793
+    },
+    {
+        "id": "EN",
+        "shortL": "Enbekshilder",
+        "value": 2082
+    },
+    {
+        "id": "ER",
+        "shortL": "Ereymentau",
+        "value": 656
+    },
+    {
+        "id": "ES",
+        "shortL": "Esil",
+        "value": 3074
+    },
+    {
+        "id": "KR",
+        "shortL": "Korgalzhyn",
+        "value": 4160
+    },
+    {
+        "id": "SA",
+        "shortL": "Sandyktau",
+        "value": 3387
+    },
+    {
+        "id": "SD",
+        "shortL": "Shortandy",
+        "value": 573
+    },
+    {
+        "id": "TS",
+        "shortL": "Tselinograd",
+        "value": 1685
+    },
+    {
+        "id": "ZE",
+        "shortL": "Zerendi",
+        "value": 2508
+    },
+    {
+        "id": "ZS",
+        "shortL": "Zhaksy",
+        "value": 2417
+    },
+    {
+        "id": "ZR",
+        "shortL": "Zharkain",
+        "value": 4347
+    },
+    {
+        "id": "AL",
+        "shortL": "Alga",
+        "value": 1353
+    },
+    {
+        "id": "AY",
+        "shortL": "Ayteke Bi",
+        "value": 4207
+    },
+    {
+        "id": "BA",
+        "shortL": "Bayganin",
+        "value": 155
+    },
+    {
+        "id": "KA",
+        "shortL": "Kargaly",
+        "value": 1561
+    },
+    {
+        "id": "KT",
+        "shortL": "Khromtau",
+        "value": 3718
+    },
+    {
+        "id": "KB",
+        "shortL": "Kobda",
+        "value": 4385
+    },
+    {
+        "id": "MA",
+        "shortL": "Martuk",
+        "value": 3517
+    },
+    {
+        "id": "MU",
+        "shortL": "Mugalzhar",
+        "value": 4939
+    },
+    {
+        "id": "OI",
+        "shortL": "Oiyl",
+        "value": 4254
+    },
+    {
+        "id": "SH",
+        "shortL": "Shalkar",
+        "value": 4548
+    },
+    {
+        "id": "TE",
+        "shortL": "Temir",
+        "value": 4069
+    },
+    {
+        "id": "YR",
+        "shortL": "Yrgyz",
+        "value": 4063
+    },
+    {
+        "id": "AK",
+        "shortL": "Aksu",
+        "value": 1504
+    },
+    {
+        "id": "AL",
+        "shortL": "Alakol",
+        "value": 1746
+    },
+    {
+        "id": "BA",
+        "shortL": "Balkhash",
+        "value": 4043
+    },
+    {
+        "id": "EN",
+        "shortL": "Enbekshikazakh",
+        "value": 4666
+    },
+    {
+        "id": "ES",
+        "shortL": "Eskeldi",
+        "value": 4648
+    },
+    {
+        "id": "IL",
+        "shortL": "Ile",
+        "value": 3249
+    },
+    {
+        "id": "KS",
+        "shortL": "Karasay",
+        "value": 3664
+    },
+    {
+        "id": "KT",
+        "shortL": "Karatal",
+        "value": 380
+    },
+    {
+        "id": "KE",
+        "shortL": "Kerbulak",
+        "value": 3475
+    },
+    {
+        "id": "KO",
+        "shortL": "Koksu",
+        "value": 3883
+    },
+    {
+        "id": "PA",
+        "shortL": "Panfilov",
+        "value": 3211
+    },
+    {
+        "id": "RA",
+        "shortL": "Raiymbek",
+        "value": 4522
+    },
+    {
+        "id": "SA",
+        "shortL": "Sarkand",
+        "value": 4265
+    },
+    {
+        "id": "TG",
+        "shortL": "Talgar",
+        "value": 1053
+    },
+    {
+        "id": "UY",
+        "shortL": "Uygur",
+        "value": 384
+    },
+    {
+        "id": "ZH",
+        "shortL": "Zhambyl",
+        "value": 4270
+    },
+    {
+        "id": "AC",
+        "shortL": "Almaty City",
+        "value": 4976
+    },
+    {
+        "id": "AS",
+        "shortL": "Astana City",
+        "value": 2386
+    },
+    {
+        "id": "IN",
+        "shortL": "Inder",
+        "value": 2647
+    },
+    {
+        "id": "IS",
+        "shortL": "Isatay",
+        "value": 1023
+    },
+    {
+        "id": "KU",
+        "shortL": "Kurmangazy",
+        "value": 4999
+    },
+    {
+        "id": "KZ",
+        "shortL": "Kyzylkoga",
+        "value": 357
+    },
+    {
+        "id": "MK",
+        "shortL": "Makat",
+        "value": 1833
+    },
+    {
+        "id": "MB",
+        "shortL": "Makhambet",
+        "value": 2287
+    },
+    {
+        "id": "ZH",
+        "shortL": "Zhylyoi",
+        "value": 3131
+    },
+    {
+        "id": "KZ.AM.AK",
+        "shortL": "AK",
+        "value": 3001
+    },
+    {
+        "id": "KZ.AM.AR",
+        "shortL": "AR",
+        "value": 413
+    },
+    {
+        "id": "KZ.AM.AS",
+        "shortL": "AS",
+        "value": 4692
+    },
+    {
+        "id": "KZ.AM.AT",
+        "shortL": "AT",
+        "value": 4581
+    },
+    {
+        "id": "KZ.AM.BU",
+        "shortL": "BU",
+        "value": 1626
+    },
+    {
+        "id": "KZ.AM.BR",
+        "shortL": "BR",
+        "value": 3490
+    },
+    {
+        "id": "KZ.AM.EG",
+        "shortL": "EG",
+        "value": 4708
+    },
+    {
+        "id": "KZ.AM.EN",
+        "shortL": "EN",
+        "value": 4891
+    },
+    {
+        "id": "KZ.AM.ER",
+        "shortL": "ER",
+        "value": 186
+    },
+    {
+        "id": "KZ.AM.ES",
+        "shortL": "ES",
+        "value": 4746
+    },
+    {
+        "id": "KZ.AM.KR",
+        "shortL": "KR",
+        "value": 3651
+    },
+    {
+        "id": "KZ.AM.SA",
+        "shortL": "SA",
+        "value": 4984
+    },
+    {
+        "id": "KZ.AM.SD",
+        "shortL": "SD",
+        "value": 4677
+    },
+    {
+        "id": "KZ.AM.TS",
+        "shortL": "TS",
+        "value": 1300
+    },
+    {
+        "id": "KZ.AM.ZE",
+        "shortL": "ZE",
+        "value": 4551
+    },
+    {
+        "id": "KZ.AM.ZS",
+        "shortL": "ZS",
+        "value": 234
+    },
+    {
+        "id": "KZ.AM.ZR",
+        "shortL": "ZR",
+        "value": 4156
+    },
+    {
+        "id": "KZ.AT.AL",
+        "shortL": "AL",
+        "value": 784
+    },
+    {
+        "id": "KZ.AT.AY",
+        "shortL": "AY",
+        "value": 1901
+    },
+    {
+        "id": "KZ.AT.BA",
+        "shortL": "BA",
+        "value": 2594
+    },
+    {
+        "id": "KZ.AT.KA",
+        "shortL": "KA",
+        "value": 750
+    },
+    {
+        "id": "KZ.AT.KT",
+        "shortL": "KT",
+        "value": 2098
+    },
+    {
+        "id": "KZ.AT.KB",
+        "shortL": "KB",
+        "value": 2954
+    },
+    {
+        "id": "KZ.AT.MA",
+        "shortL": "MA",
+        "value": 1816
+    },
+    {
+        "id": "KZ.AT.MU",
+        "shortL": "MU",
+        "value": 4857
+    },
+    {
+        "id": "KZ.AT.OI",
+        "shortL": "OI",
+        "value": 469
+    },
+    {
+        "id": "KZ.AT.SH",
+        "shortL": "SH",
+        "value": 1424
+    },
+    {
+        "id": "KZ.AT.TE",
+        "shortL": "TE",
+        "value": 1390
+    },
+    {
+        "id": "KZ.AT.YR",
+        "shortL": "YR",
+        "value": 410
+    },
+    {
+        "id": "KZ.AA.AK",
+        "shortL": "AK",
+        "value": 4655
+    },
+    {
+        "id": "KZ.AA.AL",
+        "shortL": "AL",
+        "value": 4704
+    },
+    {
+        "id": "KZ.AA.BA",
+        "shortL": "BA",
+        "value": 3516
+    },
+    {
+        "id": "KZ.AA.EN",
+        "shortL": "EN",
+        "value": 4586
+    },
+    {
+        "id": "KZ.AA.ES",
+        "shortL": "ES",
+        "value": 3144
+    },
+    {
+        "id": "KZ.AA.IL",
+        "shortL": "IL",
+        "value": 1489
+    },
+    {
+        "id": "KZ.AA.KS",
+        "shortL": "KS",
+        "value": 767
+    },
+    {
+        "id": "KZ.AA.KT",
+        "shortL": "KT",
+        "value": 1897
+    },
+    {
+        "id": "KZ.AA.KE",
+        "shortL": "KE",
+        "value": 652
+    },
+    {
+        "id": "KZ.AA.KO",
+        "shortL": "KO",
+        "value": 1872
+    },
+    {
+        "id": "KZ.AA.PA",
+        "shortL": "PA",
+        "value": 2605
+    },
+    {
+        "id": "KZ.AA.RA",
+        "shortL": "RA",
+        "value": 596
+    },
+    {
+        "id": "KZ.AA.SA",
+        "shortL": "SA",
+        "value": 1379
+    },
+    {
+        "id": "KZ.AA.TG",
+        "shortL": "TG",
+        "value": 486
+    },
+    {
+        "id": "KZ.AA.UY",
+        "shortL": "UY",
+        "value": 4221
+    },
+    {
+        "id": "KZ.AA.ZH",
+        "shortL": "ZH",
+        "value": 3564
+    },
+    {
+        "id": "KZ.AC.AC",
+        "shortL": "AC",
+        "value": 326
+    },
+    {
+        "id": "KZ.AS.AS",
+        "shortL": "AS",
+        "value": 4518
+    },
+    {
+        "id": "KZ.AR.IN",
+        "shortL": "IN",
+        "value": 3802
+    },
+    {
+        "id": "KZ.AR.IS",
+        "shortL": "IS",
+        "value": 1397
+    },
+    {
+        "id": "KZ.AR.KU",
+        "shortL": "KU",
+        "value": 4483
+    },
+    {
+        "id": "KZ.AR.KZ",
+        "shortL": "KZ",
+        "value": 4292
+    },
+    {
+        "id": "KZ.AR.MK",
+        "shortL": "MK",
+        "value": 4825
+    },
+    {
+        "id": "KZ.AR.MB",
+        "shortL": "MB",
+        "value": 3854
+    },
+    {
+        "id": "KZ.AR.ZH",
+        "shortL": "ZH",
+        "value": 1840
+    },
+    {
+        "id": "KZ.EK.AB",
+        "shortL": "AB",
+        "value": 3827
+    },
+    {
+        "id": "KZ.EK.AY",
+        "shortL": "AY",
+        "value": 1927
+    },
+    {
+        "id": "KZ.EK.BE",
+        "shortL": "BE",
+        "value": 3884
+    },
+    {
+        "id": "KZ.EK.BO",
+        "shortL": "BO",
+        "value": 222
+    },
+    {
+        "id": "KZ.EK.GL",
+        "shortL": "GL",
+        "value": 4007
+    },
+    {
+        "id": "KZ.EK.KK",
+        "shortL": "KK",
+        "value": 4724
+    },
+    {
+        "id": "KZ.EK.KO",
+        "shortL": "KO",
+        "value": 613
+    },
+    {
+        "id": "KZ.EK.KU",
+        "shortL": "KU",
+        "value": 187
+    },
+    {
+        "id": "KZ.EK.SH",
+        "shortL": "SH",
+        "value": 3369
+    },
+    {
+        "id": "KZ.EK.TA",
+        "shortL": "TA",
+        "value": 1813
+    },
+    {
+        "id": "KZ.EK.UL",
+        "shortL": "UL",
+        "value": 2381
+    },
+    {
+        "id": "KZ.EK.UR",
+        "shortL": "UR",
+        "value": 2534
+    },
+    {
+        "id": "KZ.EK.ZA",
+        "shortL": "ZA",
+        "value": 2836
+    },
+    {
+        "id": "KZ.EK.ZH",
+        "shortL": "ZH",
+        "value": 891
+    },
+    {
+        "id": "KZ.EK.ZY",
+        "shortL": "ZY",
+        "value": 2269
+    },
+    {
+        "id": "KZ.ZM.BA",
+        "shortL": "BA",
+        "value": 1645
+    },
+    {
+        "id": "KZ.ZM.JA",
+        "shortL": "JA",
+        "value": 3421
+    },
+    {
+        "id": "KZ.ZM.KO",
+        "shortL": "KO",
+        "value": 2782
+    },
+    {
+        "id": "KZ.ZM.ME",
+        "shortL": "ME",
+        "value": 903
+    },
+    {
+        "id": "KZ.ZM.MO",
+        "shortL": "MO",
+        "value": 4866
+    },
+    {
+        "id": "KZ.ZM.SA",
+        "shortL": "SA",
+        "value": 4911
+    },
+    {
+        "id": "KZ.ZM.SH",
+        "shortL": "SH",
+        "value": 1223
+    },
+    {
+        "id": "KZ.ZM.TL",
+        "shortL": "TL",
+        "value": 1028
+    },
+    {
+        "id": "KZ.ZM.TR",
+        "shortL": "TR",
+        "value": 487
+    },
+    {
+        "id": "KZ.ZM.ZL",
+        "shortL": "ZL",
+        "value": 1431
+    },
+    {
+        "id": "KZ.QG.AB",
+        "shortL": "AB",
+        "value": 1687
+    },
+    {
+        "id": "KZ.QG.AK",
+        "shortL": "AK",
+        "value": 948
+    },
+    {
+        "id": "KZ.QG.BZ",
+        "shortL": "BZ",
+        "value": 2938
+    },
+    {
+        "id": "KZ.QG.KK",
+        "shortL": "KK",
+        "value": 2270
+    },
+    {
+        "id": "KZ.QG.NU",
+        "shortL": "NU",
+        "value": 157
+    },
+    {
+        "id": "KZ.QG.OS",
+        "shortL": "OS",
+        "value": 3688
+    },
+    {
+        "id": "KZ.QG.ST",
+        "shortL": "ST",
+        "value": 2978
+    },
+    {
+        "id": "KZ.QG.UL",
+        "shortL": "UL",
+        "value": 2903
+    },
+    {
+        "id": "KZ.QG.ZA",
+        "shortL": "ZA",
+        "value": 459
+    },
+    {
+        "id": "KZ.QS.AL",
+        "shortL": "AL",
+        "value": 640
+    },
+    {
+        "id": "KZ.QS.AM",
+        "shortL": "AM",
+        "value": 4940
+    },
+    {
+        "id": "KZ.QS.AU",
+        "shortL": "AU",
+        "value": 3439
+    },
+    {
+        "id": "KZ.QS.DE",
+        "shortL": "DE",
+        "value": 4108
+    },
+    {
+        "id": "KZ.QS.FY",
+        "shortL": "FY",
+        "value": 1875
+    },
+    {
+        "id": "KZ.QS.KA",
+        "shortL": "KA",
+        "value": 3139
+    },
+    {
+        "id": "KZ.QS.KB",
+        "shortL": "KB",
+        "value": 2253
+    },
+    {
+        "id": "KZ.QS.KS",
+        "shortL": "KS",
+        "value": 4949
+    },
+    {
+        "id": "KZ.QS.KO",
+        "shortL": "KO",
+        "value": 3836
+    },
+    {
+        "id": "KZ.QS.ME",
+        "shortL": "ME",
+        "value": 4130
+    },
+    {
+        "id": "KZ.QS.NA",
+        "shortL": "NA",
+        "value": 2366
+    },
+    {
+        "id": "KZ.QS.SA",
+        "shortL": "SA",
+        "value": 4249
+    },
+    {
+        "id": "KZ.QS.TA",
+        "shortL": "TA",
+        "value": 674
+    },
+    {
+        "id": "KZ.QS.UZ",
+        "shortL": "UZ",
+        "value": 4147
+    },
+    {
+        "id": "KZ.QS.ZG",
+        "shortL": "ZG",
+        "value": 3636
+    },
+    {
+        "id": "KZ.QS.ZH",
+        "shortL": "ZH",
+        "value": 202
+    },
+    {
+        "id": "KZ.QO.AR",
+        "shortL": "AR",
+        "value": 1527
+    },
+    {
+        "id": "KZ.QO.KR",
+        "shortL": "KR",
+        "value": 4217
+    },
+    {
+        "id": "KZ.QO.KZ",
+        "shortL": "KZ",
+        "value": 1834
+    },
+    {
+        "id": "KZ.QO.SH",
+        "shortL": "SH",
+        "value": 3604
+    },
+    {
+        "id": "KZ.QO.SY",
+        "shortL": "SY",
+        "value": 2107
+    },
+    {
+        "id": "KZ.QO.ZL",
+        "shortL": "ZL",
+        "value": 3164
+    },
+    {
+        "id": "KZ.QO.ZN",
+        "shortL": "ZN",
+        "value": 1060
+    },
+    {
+        "id": "KZ.MG.BE",
+        "shortL": "BE",
+        "value": 2039
+    },
+    {
+        "id": "KZ.MG.KA",
+        "shortL": "KA",
+        "value": 4703
+    },
+    {
+        "id": "KZ.MG.MA",
+        "shortL": "MA",
+        "value": 3935
+    },
+    {
+        "id": "KZ.MG.MU",
+        "shortL": "MU",
+        "value": 511
+    },
+    {
+        "id": "KZ.MG.TU",
+        "shortL": "TU",
+        "value": 2573
+    },
+    {
+        "id": "KZ.NK.AK",
+        "shortL": "AK",
+        "value": 4841
+    },
+    {
+        "id": "KZ.NK.AZ",
+        "shortL": "AZ",
+        "value": 2931
+    },
+    {
+        "id": "KZ.NK.AY",
+        "shortL": "AY",
+        "value": 2112
+    },
+    {
+        "id": "KZ.NK.ES",
+        "shortL": "ES",
+        "value": 4166
+    },
+    {
+        "id": "KZ.NK.GM",
+        "shortL": "GM",
+        "value": 4508
+    },
+    {
+        "id": "KZ.NK.KY",
+        "shortL": "KY",
+        "value": 4339
+    },
+    {
+        "id": "KZ.NK.BU",
+        "shortL": "BU",
+        "value": 2611
+    },
+    {
+        "id": "KZ.NK.MA",
+        "shortL": "MA",
+        "value": 2478
+    },
+    {
+        "id": "KZ.NK.SA",
+        "shortL": "SA",
+        "value": 2908
+    },
+    {
+        "id": "KZ.NK.TA",
+        "shortL": "TA",
+        "value": 3415
+    },
+    {
+        "id": "KZ.NK.TI",
+        "shortL": "TI",
+        "value": 2688
+    },
+    {
+        "id": "KZ.NK.UA",
+        "shortL": "UA",
+        "value": 2170
+    },
+    {
+        "id": "KZ.NK.ZH",
+        "shortL": "ZH",
+        "value": 1693
+    },
+    {
+        "id": "KZ.PA.AT",
+        "shortL": "AT",
+        "value": 375
+    },
+    {
+        "id": "KZ.PA.BA",
+        "shortL": "BA",
+        "value": 1842
+    },
+    {
+        "id": "KZ.PA.ER",
+        "shortL": "ER",
+        "value": 993
+    },
+    {
+        "id": "KZ.PA.KA",
+        "shortL": "KA",
+        "value": 3896
+    },
+    {
+        "id": "KZ.PA.LE",
+        "shortL": "LE",
+        "value": 4496
+    },
+    {
+        "id": "KZ.PA.MA",
+        "shortL": "MA",
+        "value": 1349
+    },
+    {
+        "id": "KZ.PA.PA",
+        "shortL": "PA",
+        "value": 4808
+    },
+    {
+        "id": "KZ.PA.SH",
+        "shortL": "SH",
+        "value": 391
+    },
+    {
+        "id": "KZ.PA.US",
+        "shortL": "US",
+        "value": 3739
+    },
+    {
+        "id": "KZ.PA.ZH",
+        "shortL": "ZH",
+        "value": 714
+    },
+    {
+        "id": "KZ.SK.BA",
+        "shortL": "BA",
+        "value": 3521
+    },
+    {
+        "id": "KZ.SK.KA",
+        "shortL": "KA",
+        "value": 4522
+    },
+    {
+        "id": "KZ.SK.MA",
+        "shortL": "MA",
+        "value": 3669
+    },
+    {
+        "id": "KZ.SK.OR",
+        "shortL": "OR",
+        "value": 4098
+    },
+    {
+        "id": "KZ.SK.OT",
+        "shortL": "OT",
+        "value": 4864
+    },
+    {
+        "id": "KZ.SK.SG",
+        "shortL": "SG",
+        "value": 4444
+    },
+    {
+        "id": "KZ.SK.SA",
+        "shortL": "SA",
+        "value": 3655
+    },
+    {
+        "id": "KZ.SK.SR",
+        "shortL": "SR",
+        "value": 659
+    },
+    {
+        "id": "KZ.SK.SO",
+        "shortL": "SO",
+        "value": 2448
+    },
+    {
+        "id": "KZ.SK.TO",
+        "shortL": "TO",
+        "value": 146
+    },
+    {
+        "id": "KZ.SK.TU",
+        "shortL": "TU",
+        "value": 577
+    },
+    {
+        "id": "KZ.WK.AK",
+        "shortL": "AK",
+        "value": 172
+    },
+    {
+        "id": "KZ.WK.BO",
+        "shortL": "BO",
+        "value": 1326
+    },
+    {
+        "id": "KZ.WK.BU",
+        "shortL": "BU",
+        "value": 2047
+    },
+    {
+        "id": "KZ.WK.KZ",
+        "shortL": "KZ",
+        "value": 888
+    },
+    {
+        "id": "KZ.WK.KR",
+        "shortL": "KR",
+        "value": 4831
+    },
+    {
+        "id": "KZ.WK.SG",
+        "shortL": "SG",
+        "value": 4191
+    },
+    {
+        "id": "KZ.WK.SY",
+        "shortL": "SY",
+        "value": 2642
+    },
+    {
+        "id": "KZ.WK.TA",
+        "shortL": "TA",
+        "value": 4019
+    },
+    {
+        "id": "KZ.WK.TE",
+        "shortL": "TE",
+        "value": 4697
+    },
+    {
+        "id": "KZ.WK.ZK",
+        "shortL": "ZK",
+        "value": 838
+    },
+    {
+        "id": "KZ.WK.ZH",
+        "shortL": "ZH",
+        "value": 3564
+    },
+    {
+        "id": "KZ.WK.ZE",
+        "shortL": "ZE",
+        "value": 1570
+    },
+    {
+        "id": "KZ.BY.BY",
+        "shortL": "BY",
+        "value": 4828
     }
 ]

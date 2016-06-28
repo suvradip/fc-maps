@@ -39,7 +39,7 @@ var checkDir = function(){
 
 
 files = fs.readdirSync(DIR_SPEC);
-checkDir(DIR_SPEC, DIR_HTML, DIR_MD_OUT, DIR_JS_OUT);
+checkDir(DIR_MD_OUT, DIR_JS_OUT);
 files.forEach(function(file){
 
   var Data = fs.readFileSync(DIR_SPEC + file,'utf-8'),

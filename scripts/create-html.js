@@ -9,11 +9,11 @@
 var fs = require('fs'),
     PAGE, fcResource ={},
     //output folder  location
-    DIR = "../kazakhstan/html/", 
+    DIR = "../totalmaps/html/", 
     //fusionChrats lib. location
     JSLib = "fusioncharts/fusioncharts.js";
 
-fcResource.counter = -1; //initial -1, 
+fcResource.counter = 201; //initial -1, 
 PAGE = require('webpage').create();
 
 // ignoring all the console log of the site
@@ -76,7 +76,7 @@ var readContents = (function(url) {
     for(var i=0; i<data.length; i++) {
 
       var temp = {}, temp1={};
-      data[i] = checkDuplicate(data[i]);
+      //data[i] = checkDuplicate(data[i]);
       temp.id = data[i].id;
       temp.value = data[i].value;
       prepData.push(temp);               

@@ -1,5 +1,9 @@
 /**
  * @description - crawl from dev center map spec sheet page and prepare a html files which render the map
+ * @how to run - phantomjs crate-html.js
+ *  and one more thing, to run this script you need to update `map-links.json` file, if required.
+ * this file content the links and this link will be crawl.
+ * @dependencies - phantomjs
  */
 
 var fs = require('fs'),

@@ -1,3 +1,6 @@
-map-html/js
-maps
-kazakhstan/
+# Ignore everything:
+*
+
+# Except for the themes directories:
+!script/*
+!script/template/*

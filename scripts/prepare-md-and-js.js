@@ -13,10 +13,10 @@ var fs = require('fs'),
      * DIR_MD_OUT - location of the folder where to place .md files
      * DIR_MD_JS - location of the folder where to place .js files
      */
-    DIR_SPEC = "../totalmaps/specs-heets/",
-    DIR_HTML = "../totalmaps/html/",
-    DIR_MD_OUT = "../totalmaps/md/",
-    DIR_JS_OUT = "../totalmaps/js/";
+    DIR_SPEC = "../kazakhstan/spec-sheets/",
+    DIR_HTML = "../kazakhstan/html/",
+    DIR_MD_OUT = "../kazakhstan/md/",
+    DIR_JS_OUT = "../kazakhstan/js/";
 
 /**
  * @description - checks the dire, is it is not present the creates a new one.

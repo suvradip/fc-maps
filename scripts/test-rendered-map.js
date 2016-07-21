@@ -9,9 +9,9 @@
 var fs = require('fs'),
     PAGE, fcResource ={},
     //output folder location
-    DIR = "../kazakhstan/",
-    DIR_LOG_FILE = "../kazakhstan/log/log.csv",
-    DIR_HTMLFILES = "../kazakhstan/html/";
+    DIR = "../totalmaps/",
+    DIR_LOG_FILE = "../totalmaps/log/log.csv",
+    DIR_HTMLFILES = "../totalmaps/html/";
 
 fcResource.counter = -1; //initial -1, 
 PAGE = require('webpage').create();
@@ -38,7 +38,7 @@ var getTime = function(){
 };
 
 var writeLog = function (msg) {
-  var header = "Data, Time, Links, Status, File name",
+  var header = "Date, Time, Links, Status, File name",
       newline = "\n",
       str,
       fileName;

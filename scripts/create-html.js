@@ -9,11 +9,12 @@
 var fs = require('fs'),
     PAGE, fcResource ={},
     //output folder  location
-    DIR = "../totalmaps/html/", 
+    PARENT_DIR = "../gujrat/",
+    DIR_HTML = PARENT_DIR + "html/", 
     //fusionChrats lib. location
     JSLib = "fusioncharts/fusioncharts.js";
 
-fcResource.counter = 201; //initial -1, 
+fcResource.counter = -1; //initial -1, 
 PAGE = require('webpage').create();
 
 // ignoring all the console log of the site
@@ -91,8 +92,8 @@ var readContents = (function(url) {
     mapTemplate = mapTemplate.replace("###mapName###", mapName);
     mapTemplate = mapTemplate.replace("###data###", detailsContent);
     
-    fs.write(DIR + mapName + ".html", mapTemplate);
-    console.log("saved at "+ DIR + mapName + ".html");
+    fs.write(DIR_HTML + mapName + ".html", mapTemplate);
+    console.log("saved at "+ DIR_HTML + mapName + ".html");
     console.log("****** File write done ******");
     console.log("");
     openThisLink();
@@ -131,6 +132,7 @@ var openThisLink = (function() {
 
 (function(){
   fcResource.url = JSON.parse(fs.read("map-links.json"));
+  console.log(fcResource.url.length);
   openThisLink();
 })();
 

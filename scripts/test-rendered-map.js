@@ -9,9 +9,9 @@
 var fs = require('fs'),
     PAGE, fcResource ={},
     //output folder location
-    DIR = "../totalmaps/",
-    DIR_LOG_FILE = "../totalmaps/log/log.csv",
-    DIR_HTMLFILES = "../totalmaps/html/";
+    DIR = "../map-render-test/",
+    DIR_LOG_FILE = DIR + "log/log.csv",
+    DIR_HTMLFILES = DIR + "html/";
 
 fcResource.counter = -1; //initial -1, 
 PAGE = require('webpage').create();

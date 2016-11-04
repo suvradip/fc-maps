@@ -20,12 +20,12 @@ fs = require("fs");
  * DIR_JS - location of JS files that required to render the map.
  * JSLib - in html files, location of FC lib.
  */
-PARENT_Dir = "../gujrat/";
+PARENT_Dir = "../map-render-test/";
 DIR_Spec = PARENT_Dir + "spec-sheets/";
 DIR_Html = PARENT_Dir + "html/";
 DIR_Md = PARENT_Dir + "md/";
 DIR_Js = PARENT_Dir + "js/";
-JSLib = "fusioncharts/fusioncharts.js";
+JSLib = "../../fusioncharts/fusioncharts.js";
 
 /**
  * @description - checks the directory location, if
@@ -65,12 +65,14 @@ genData = function(ids){
 
 //loads all the files name @files named variable as Array
 files = fs.readdirSync(DIR_Spec);
+//count of total files
+console.log("+ Total files : "+ files.length);
 //template loaded @template variable
 template = fs.readFileSync("template/html.txt", "utf-8");
 
 //check the directories or create it
 checkDir(DIR_Html, DIR_Md, DIR_Js);
-
+console.log("+ Running...");
 files.forEach(function(file){
 
 	var copyTemplate,
@@ -80,10 +82,8 @@ files.forEach(function(file){
 		str,
 		jsstr;
 
-	console.log(file);
 	contents = fs.readFileSync(DIR_Spec + file, "utf-8");
-	data = contents.match(/---\|---\|---\|---\n([\S\s]*)\n?$/i)[1].trim();
-
+	data = contents.match(/---\|---\|---\|---\n?([\S\s]*)\n?$/i)[1].trim();
 	data = data.split("\n").map(function(ele){
 		return ele.split("|")[0];
 	});
@@ -97,7 +97,6 @@ files.forEach(function(file){
 
     fs.writeFileSync(DIR_Html + mapName + '.html', copyTemplate, "utf-8");
 
-
 	str = '{% embed_spec_map {"source": "'+ mapName +'-map.js", "id": "1"} %}\n\n### List of Entities';
 	jsstr = fs.readFileSync(DIR_Html + mapName + '.html', 'utf-8');
 
@@ -106,3 +105,5 @@ files.forEach(function(file){
 	fs.writeFileSync(DIR_Md + mapName +'.md', contents, 'utf-8');
 	fs.writeFileSync(DIR_Js + mapName +'-map.js', jsstr, 'utf-8');
 });
+
+console.log("+ Operation finished.");

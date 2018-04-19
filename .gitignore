@@ -2,5 +2,5 @@
 *
 
 # Except for the themes directories:
-!script/*
-!script/template/*
+!src/*
+!src/template/*

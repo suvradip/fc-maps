@@ -1,4 +1,6 @@
 # fc-maps
 
-1. run create-html.js file
-2. run prepare-md-and-js.js file
+
+make a **_spec-sheets_** folder inside _vendor_ folder, then run `npm start`
+
+It will generate req md and js files

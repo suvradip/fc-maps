@@ -1,0 +1,26 @@
+{
+  "name": "fc-maps",
+  "version": "1.0.0",
+  "description": "1. run create-html.js file 2. run prepare-md-and-js.js file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/generate",
+    "test": "phantomjs src/test-rendered-map",
+    "files": "node src/getFileNames"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suvradip/fc-maps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suvradip/fc-maps/issues"
+  },
+  "homepage": "https://github.com/suvradip/fc-maps#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
